@@ -3,13 +3,16 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
 
+  ssr: true,
+  target: 'static',
+
   modules: ["@nuxt/image", "@nuxt/icon", "@nuxt/ui", "@pinia/nuxt"],
 
-  runtimeConfig: {
-    public: {
-      baseURL: process.env.BASE_URL,
-    },
-  },
+  // runtimeConfig: {
+  //   public: {
+  //     baseURL: "" //process.env.BASE_URL,
+  //   },
+  // },
 
   pinia: {
     storesDirs: ["./stores/**"],
@@ -37,7 +40,7 @@ export default defineNuxtConfig({
 
   app: {
     pageTransition: { name: "blur", mode: "out-in" },
-    // layoutTransition: { name: "blur", mode: "out-in" },
+    layoutTransition: { name: "blur", mode: "out-in" },
 
     head: {
       title: "رویانو",
