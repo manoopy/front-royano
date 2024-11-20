@@ -1,0 +1,1 @@
+import{_ as t}from"./CzXQ7g8T.js";import{_ as e,o as r,f as s}from"./ClspZet8.js";import"./BI5DW-_x.js";import"./Dg4GVgU_.js";import"./DMDL8dbO.js";const n={};function c(_,i){const o=t;return r(),s(o,{title:"تنظیمات",icon:"i-solar-settings-broken"})}const x=e(n,[["render",c]]);export{x as default};
